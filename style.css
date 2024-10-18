@@ -55,7 +55,10 @@ body{
     outline: none;
     box-shadow: none;
 }
-a{
+.options label{
+    user-select: none;
+}
+.options a{
     margin-top: 20px;
     color: black;
 }
@@ -67,7 +70,24 @@ a{
 }
 .title{
     font-size: 100px;
+    user-select: none;
 }
+.logout{
+    border-radius: 50px;
+    background-color: rgba(183, 183, 209, 0.637);
+    box-shadow: 0px 15px 35px 1px;
+    padding: 20px;
+    user-select: none;
+}
+.logout:active{
+    box-shadow: none;
+    background-color: rgb(26, 26, 116);
+    color: white;
+}
+.logout:hover{
+    cursor: pointer;
+}
+
 /* Codigo de advertencia en caso de no completar los 2 campos */
 .warner1,.warner2,.warner3{
     border-radius: 50px;
@@ -75,6 +95,7 @@ a{
     padding: 20px;
     font-size: 20px;
     color: rgb(133, 49, 49);
+    font-size: 15px;
 }
 .disable{
     display:none;

@@ -17,11 +17,20 @@
             <input class="email" type="email" name="" placeholder="Email">
             <input class="password" type="password" name="" placeholder="Password">
             <input class="button" type="button" value="LOGIN">
-            <a href="http://">¿Olvidaste tu contraseña?</a>
+            <div class="options">
+                <label for="localstorage">
+                    <input type="checkbox" id="localstorage">
+                    ¿Desea guardar sesion?
+                </label>
+                |
+                <a href="http://">¿Olvidaste tu contraseña?</a>
+            </div>
 
         </form>
-    <!-- Codigo welcome desde JS -->
+    <!-- Codigo welcome -->
     <h1 class="title disable">BIENVENIDO!</h1>
+    <div class="logout disable">Log out</div>
+    
     </div>
     <script src="index.js"></script>
 </body>

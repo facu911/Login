@@ -1,0 +1,68 @@
+/* Estilos del container */
+.container{
+    width: 700px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(149, 191, 245,0.8);
+    border-radius: 20%;
+    box-shadow: 0px 5px 55px 5px;
+}
+/* Estilos de la foto de perfil */
+.fotoPerfil{
+    border-radius: 50%;
+    width: 200px; 
+    margin-bottom: 85px;
+    box-shadow: 0px 15px 35px 1px;
+}
+/* Estilos email y password */
+.email,.password{
+    width: 300px;
+    height: 50px;
+    background-color: rgba(183, 183, 209, 0.637);
+}
+.email:focus,.password:focus{
+    outline: none;
+    box-shadow: none;
+    border: 1px solid black;
+}
+/* Estilos de login y register */
+.login{
+    background-color: rgb(26, 26, 116);
+    color: white;
+}
+.register{
+    background-color: rgba(183, 183, 209, 0.637);
+}
+.login,.register{
+    padding: 20px;
+    width: 135px;
+    margin-top: 40px;
+}
+.login:hover,.register:hover{
+    cursor: pointer;
+}
+.login:active{
+    box-shadow: none;
+    background-color: rgba(183, 183, 209, 0.637);
+    color: black;
+}
+.register:active{
+    background-color: rgb(26, 26, 116);
+    color: white;
+}
+
+/*Estilos de los mensajes de advertencia */
+.warner1,.warner2,.warner3{
+    border-radius: 50px;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    color: rgb(133, 49, 49);
+    font-size: 15px;
+}
+.disable{
+    display:none;
+}

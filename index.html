@@ -3,35 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="style.css">
+    <title>welcome</title>
+    <!-- Estilos de botones e inputs -->
+    <link rel="stylesheet" href="./style/form.css">
+    <!-- Estilos locales -->
+    <link rel="stylesheet" href="./style/index.css">
 </head>
 <body>
-    <div class="container-log">
-        <img class="fotoPerfil" src="img/sonrisa.jpg" alt="">
-        <form class="form" action="#" method="post">
-
-            <div class="warner1 disable">Debe ingresar su email y contraseña.</div>
-            <div class="warner2 disable">Debe ingresar su email.</div>
-            <div class="warner3 disable">Debe ingresar su contraseña.</div>
-            <input class="email" type="email" name="" placeholder="Email">
-            <input class="password" type="password" name="" placeholder="Password">
-            <input class="button" type="button" value="LOGIN">
-            <div class="options">
-                <label for="localstorage">
-                    <input type="checkbox" id="localstorage">
-                    ¿Desea guardar sesion?
-                </label>
-                |
-                <a href="http://">¿Olvidaste tu contraseña?</a>
-            </div>
-
-        </form>
-    <!-- Codigo welcome -->
-    <h1 class="title disable">BIENVENIDO!</h1>
-    <div class="logout disable">Log out</div>
-    
+    <div class="container">
+        <!-- Codigo welcome -->
+        <h1 class="title disable">BIENVENIDO!</h1>
+        <div class="logout disable">Log out</div>
     </div>
-    <script src="index.js"></script>
+    <script src="./lib/index.js"></script>
 </body>
 </html>

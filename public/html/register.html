@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <!-- Estilos de botones e inputs -->
+    <link rel="stylesheet" href="../style/form.css">
+    <!-- Estilos locales -->
+    <link rel="stylesheet" href="../style/register.css">
+</head>
+<body>
+    <!-- Formulario de registro -->
+    <div class="container">
+        <h1 class="titleRegister">Registration Form</h1>
+        <form class="form" id="form" action="#" method="post">
+            <div class="labels">
+                <label for="name">
+                    Name:
+                </label>
+                <label for="lastName">
+                    Last Name:
+                </label>
+                <label for="userName">
+                    User Name:
+                </label>
+                <label for="email">
+                    Email:
+                    
+                </label>
+                <label for="password1">
+                    Password:
+                </label>
+                <label for="password2">
+                    Repeat password:
+                </label>
+            </div>
+            <div class="inputs">
+                <input class="style inputStyle" type="text" id="name">
+                <input class="style inputStyle" type="text" id="lastName">
+                <input class="style inputStyle" type="text" id="userName">
+                <input class="style inputStyle" type="email" id="email" required>
+                <input class="style inputStyle" type="password" id="password1">
+                <input class="style inputStyle" type="password" id="password2">
+            </div>
+        </form>
+        <p class="warner1 disable">Las contraseñas son diferentes</p>
+        <p class="warner2 disable">Email no valido</p>
+        <p class="warner3 disable">La contraseña tiene que tener por lo menos 8 digitos</p>
+        <div class="buttonsRegister">
+            <input class="btnBack style" type="button" value="Back">
+            <input class="btnRegister style" form="form" type="button" value="REGISTER">
+        </div>
+    </div>
+    <script type="module" src="../lib/register.js"></script>
+</body>
+</html>
